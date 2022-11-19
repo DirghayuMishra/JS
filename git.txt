@@ -1,0 +1,5 @@
+git init     
+git add .
+git commit -m "Renamed JS File"
+git branch -M main
+git push -u origin main

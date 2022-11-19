@@ -4,7 +4,7 @@
 
 //40 + 8 + 32 - 10
 //use console.log to view results on browser
-console.log(40 + 8 + 23 - 10); //colon used here is optional it is like a sentence break
+/*console.log(40 + 8 + 23 - 10); //colon used here is optional it is like a sentence break
 console.log("jonas");
 console.log("23");
 //values can be stored as variables
@@ -22,7 +22,7 @@ console.log(firstName);
 // let name = 'jonas' will work without any errors but still it is illegal
 
 let _function = 27;
-let PI = 3.1415;
+const PI = 3.1415;
 // all caps are used for universal constant
 let myFirstJob = "Programmer";
 let myCurrentJob = "Teacher";
@@ -58,3 +58,45 @@ function newName() {
 }
 
 newName();
+
+function dirghayuMishra() {
+  let myFirstJob = "Doctor";
+  console.log(myFirstJob);
+}
+console.log(myFirstJob, "#2");
+dirghayuMishra();
+
+// values and variables
+
+/// TYPES OF VALUE
+
+// OBJECT
+let me = { name: "Jonas" };
+
+// Primitive
+
+let firstName = " jonas";
+let age = 30;
+
+// Seven type of Primitive data types
+
+// 1. Number
+let age = 23;
+
+// 2. String - sequence of characters always used in quotes
+let firstName = "Jonas";
+
+//3. Boolean - logical type that can only be true or false it is used for taking decisions
+let fullAge = true;
+
+//4. Undefined- VAriables that isnt yet defined
+
+let childern;
+
+//5. Null
+//6.Symbol - value that is unique and cannot be changed
+//7. BigInt- Larger integers than the Number can hold
+*/
+
+let javaScriptIsFun = true;
+console.log(javaScriptIsFun);
