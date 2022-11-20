@@ -1,0 +1,29 @@
+// Example
+//  A : Sarah has a good vision.
+// B : Sarah has a driver's license.
+//  and operator gives true result only when A and B are both true.
+//  or operator gives false result only when A and B are both false.
+// not A and not B reverses the value from true to false or vice versa
+
+const age = 16;
+const result = Boolean(age >= 20);
+const Result = Boolean(age < 30);
+console.log(result);
+console.log(Result);
+console.log(result && Result);
+console.log(!result && Result);
+
+const hasDriversLicense = true; // A
+const hasGoodVision = true; //B
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+const isTired = true;
+console.log((hasDriversLicense && hasGoodVision) || isTired);
+if (shouldDrive) {
+  alert("Sarah is able to drive");
+} else {
+  alert("Some else should drive");
+}
